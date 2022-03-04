@@ -9,9 +9,12 @@
 <body>
   <h1>AJAX REQUEST</h1>
   <button type="button" onclick="loadDoc()">Click</button>
-  <table id="entries">
-  </table>
+  <button id="previous-page" onclick="previousPage()" style="visibility: hidden">Previous Page</button>
+  <button id="next-page" onclick="nextPage()">Next Page</button>
+  <div id="entry-cards"></div>
   
 </body>
 <script defer src="index.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
